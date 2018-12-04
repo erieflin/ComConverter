@@ -1,8 +1,7 @@
 import serial
 from config import *
 # inValue = b'<<357'
-startInLineByte = bytes([2])
-endInLineByte = bytes([3])
+
 inCommPort = ports[0]['comPort']
 outComPort = ports[1]['comPort']
 inSer = serial.Serial(inCommPort)

@@ -798,3 +798,5 @@ ports = [
                 "comPort": 'COM9'
             }
         ]
+startInLineByte = bytes([2])
+endInLineByte = bytes([3])
