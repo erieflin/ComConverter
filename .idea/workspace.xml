@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5119b580-f021-43c4-b56e-250c0d59ec28" name="Default Changelist" comment="" />
+    <list default="true" id="5119b580-f021-43c4-b56e-250c0d59ec28" name="Default Changelist" comment="">
+      <change afterPath="$USER_HOME$/ComConverter/setup.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -40,7 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="81" />
           <entry key="Python" value="2582" />
         </counts>
       </usages-collector>
@@ -51,7 +53,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/ComConverter/comConversion/ComConverter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -61,6 +63,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/ComConverter/setup.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -78,6 +85,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Setup Script" />
       </list>
     </option>
   </component>
@@ -87,7 +95,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/ComConverter" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -401,17 +409,26 @@
       <option name="presentableId" value="Default" />
       <updated>1541371330861</updated>
     </task>
+    <task id="LOCAL-00001" summary="Move start and end line config to config file&#10;fix pycharm env issues">
+      <created>1543904265902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543904265902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985465" visible="true" weight="0.17913593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985465" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" sideWeight="0.50145346" side_tool="true" visible="true" weight="0.17913593" />
       <window_info id="Favorites" order="2" sideWeight="0.5017301" side_tool="true" weight="0.17913593" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28556594" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28556594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,6 +468,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Move start and end line config to config file&#10;fix pycharm env issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move start and end line config to config file&#10;fix pycharm env issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,6 +552,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ComConverter/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
